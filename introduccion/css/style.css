@@ -4,6 +4,38 @@ body {
   color: black;
 }
 
+header {
+  font-size: 30px;
+}
+
+h1 {
+  color: blue;
+}
+
+.verde {
+  color: darkgreen !important;
+}
+
+.red {
+  color: darkred;
+}
+
+#naranja {
+  color: orange;
+}
+/*
+css navegador
+css perfil de usuario
+css desarrollador
+
+propiedades que el elemento hereda
+propiedades propias del elemento
+carga una a una las clases segun estan nombradas
+carga el id
+
+**!important se impone a elementos de mas peso jerarquico
+*/
+
 /*
 elemento1 ~ elemento2
 tienen que ser hermanos
