@@ -4,13 +4,22 @@ body {
   color: black;
 }
 
-header > div > h1 {
-  color: darkred;
+/*
+elemento1 ~ elemento2
+tienen que ser hermanos
+elemento1 sea hermano mayor de elemento2
+sin importar que sea consecutivo
+p ~ p {
+color: darkred;
 }
+*/
 
 /*
 Selectores directos
 padre > hijo
+header > div > h1 {
+color: darkred;
+}
 */
 
 /*
