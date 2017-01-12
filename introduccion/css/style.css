@@ -1,5 +1,52 @@
-header {
-  width: 100%;
-  height: 300px;
-  background-color: black;
+body {
+  background-color: khaki;
+  margin-left: 30px;
+  color: black;
 }
+
+header > div > h1 {
+  color: darkred;
+}
+
+/*
+Selectores directos
+padre > hijo
+*/
+
+/*
+Selector adyacente
+para elementos hermanos
+inmediatamente despues del indicado
+elemento + elementoAplicar {...}
+p + p {
+color: gray;
+text-indent: 30px;
+}
+*/
+
+/*.azul {
+  color: blue;
+}
+
+.verde {
+  color: darkgreen;
+}
+
+#rojo {
+  color: darkred;
+}
+
+p[class] {
+  text-decoration: underline;
+}
+
+p[id="rojo"] {
+  font-weight: bold;
+}
+
+selectores de atributo
+[nombre_atributo]
+[nombre_atributo=valor]
+[nombre_atributo~=valor] almenos
+[nombre_atributo|=valor] lang=es-ES es-AR es-PE es-MX
+ */
