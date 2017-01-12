@@ -1,0 +1,29 @@
+body {
+  background-color: khaki;
+  margin-left: 30px;
+  font-size: 12px;
+}
+
+.em {
+  font-size: 2em;
+}
+
+.ex {
+  font-size: 3ex;
+}
+
+.px {
+  font-size: 20px;
+}
+
+div {
+  font-size: 2em;
+}
+
+div p {
+  font-size: 0.9em;
+}
+
+.rem {
+  font-size: 0.9rem;
+}
