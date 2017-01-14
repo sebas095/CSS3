@@ -1,27 +1,14 @@
 body {
   background-color: khaki;
-  margin-left: 30px;
+  /*margin-left: 30px;*/
   font-size: 12px;
 }
 
-.in {
-  font-size: 0.5in;
-}
-
-.cm {
-  font-size: 1cm;
-}
-
-.mm {
-  font-size: 5mm;
-}
-
-.pt {
-  font-size: 20pt;
-}
-
-.pc {
-  font-size: 1pc;
+div {
+  width: 60%;
+  margin-left: 20%;
+  height: 200px;
+  background-color: darkred;
 }
 
 /*
@@ -30,6 +17,26 @@ cm
 mm
 pt -> puntos     1pt = 0.35mm
 pc -> pica       1pc = 4.23mm      1pc = 12pt
+
+.in {
+font-size: 0.5in;
+}
+
+.cm {
+font-size: 1cm;
+}
+
+.mm {
+font-size: 5mm;
+}
+
+.pt {
+font-size: 20pt;
+}
+
+.pc {
+font-size: 1pc;
+}
 */
 
 /*
