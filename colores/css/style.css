@@ -4,14 +4,22 @@ body {
   font-size: 12px;
 }
 
-.div1 {
+div {
   width: 200px;
   height: 200px;
+  display: inline-block;;
+  border: 1px solid red;
+  margin: 10px 20px;
+}
+
+.decimal {
   background-color: rgb(128, 128, 128);
 }
 
-.div2 {
-  width: 200px;
-  height: 200px;
+.porcentaje {
   background-color: rgb(50%, 50%, 50%);
+}
+
+.hexadecimal {
+  background-color: #0ff;
 }
