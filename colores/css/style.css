@@ -23,3 +23,7 @@ div {
 .hexadecimal {
   background-color: #0ff;
 }
+
+.hsl {
+  background-color: hsl(240, 100%, 70%);
+}
