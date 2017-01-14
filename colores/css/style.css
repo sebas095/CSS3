@@ -16,6 +16,10 @@ div {
   background-color: rgb(128, 128, 128);
 }
 
+.decimal-alpha {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+
 .porcentaje {
   background-color: rgb(50%, 50%, 50%);
 }
@@ -25,5 +29,9 @@ div {
 }
 
 .hsl {
-  background-color: hsl(240, 100%, 70%);
+  background-color: hsl(240, 100%, 50%);
+}
+
+.hsla {
+  background-color: hsla(240, 100%, 50%, 0.5);
 }
