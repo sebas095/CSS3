@@ -4,6 +4,36 @@ body {
   font-size: 12px;
 }
 
+.in {
+  font-size: 0.5in;
+}
+
+.cm {
+  font-size: 1cm;
+}
+
+.mm {
+  font-size: 5mm;
+}
+
+.pt {
+  font-size: 20pt;
+}
+
+.pc {
+  font-size: 1pc;
+}
+
+/*
+in -> inches (pulgadas) 1in = 2.54cm
+cm
+mm
+pt -> puntos     1pt = 0.35mm
+pc -> pica       1pc = 4.23mm      1pc = 12pt
+*/
+
+/*
+Medidas Relativas
 .em {
   font-size: 2em;
 }
@@ -26,4 +56,4 @@ div p {
 
 .rem {
   font-size: 0.9rem;
-}
+}*/
