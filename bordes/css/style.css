@@ -9,12 +9,15 @@ div {
   height: 200px;
   display: inline-block;
   background-color: green;
-  border-radius: 20px;
-  border-top-left-radius: 80px 60px;
+  border: 25px solid transparent;
+  border-image: url(../img/decoration.png);
 }
 
 /*
 border-width: 4px;
 border-style: solid;
 border-color: red pink orange yellow;
+border-radius: 20px;
+border-top-left-radius: 80px 60px;
+border-image: url(../img/decoration.png) 10 stretch;
 */
