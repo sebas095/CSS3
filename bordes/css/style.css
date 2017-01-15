@@ -7,10 +7,10 @@ div {
   width: 80%;
   margin: 7%;
   height: 200px;
-  display: inline-block;
-  background-color: green;
-  border: 25px solid transparent;
-  border-image: url(../img/decoration.png);
+  border: 10px solid transparent;
+  padding: 10px;
+  background: url(../img/cat.jpg);
+  background-origin: content-box;
 }
 
 /*
@@ -20,4 +20,7 @@ border-color: red pink orange yellow;
 border-radius: 20px;
 border-top-left-radius: 80px 60px;
 border-image: url(../img/decoration.png) 10 stretch;
+border: 25px solid transparent;
+display: inline-block;
+border-image: url(../img/decoration.png);
 */
