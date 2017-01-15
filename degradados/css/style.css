@@ -1,0 +1,17 @@
+body {
+  background-color: khaki;
+  font-size: 12px;
+}
+
+div {
+  width: 75%;
+  margin: 7%;
+  height: 200px;
+  border: 10px solid black;
+  background-color: green;
+  background: -webkit-linear-gradient(
+      30deg,
+      black 0%, orange 20%,
+      blue 80%, green 100%
+    );
+}
