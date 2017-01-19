@@ -38,22 +38,22 @@ div {
 }
 
 p {
-  /*font-size: 4em;*/
+  font-size: 2em;
   color: white;
   padding-top: 40px;
-  font-weight: 200;
-  /*font-family: 'VT323', monospace;*/
-  /*font-family: 'Coming Soon', cursive;*/
+  font-family: 'Coming Soon', cursive;
 }
 
-p.grande {
-  /*font-size: 36px;*/
-  font-weight: 600;
+.p1 {
+  font-style: normal;
 }
 
-div div p {
-  /*font-size: 1.5rem;*/
-  font-weight: normal;
+.p2 {
+  font-style: italic;
+}
+
+.p3 {
+  font-style: oblique;
 }
 
 /*
@@ -81,5 +81,24 @@ Fuentes
   src: local('?'),
       url(...) format(...),
       ...
+}
+
+p {
+font-size: 4em;
+color: white;
+padding-top: 40px;
+font-weight: 200;
+font-family: 'VT323', monospace;
+font-family: 'Coming Soon', cursive;
+}
+
+p.grande {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+div div p {
+  font-size: 1.5rem;
+  font-weight: normal;
 }
 */
