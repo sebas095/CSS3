@@ -32,28 +32,15 @@ div {
   width: 75%;
   margin: 7%;
   height: 1200px;
-  background: #088A48;
-  text-align: center;
+  background-color: #088A48;
+  color: white;
+  /*text-align: center;*/
   font-size: 3em;
 }
 
 p {
-  font-size: 2em;
-  color: white;
   padding-top: 40px;
-  font-family: 'Coming Soon', cursive;
-}
-
-.p1 {
-  font-style: normal;
-}
-
-.p2 {
-  font-style: italic;
-}
-
-.p3 {
-  font-style: oblique;
+  text-align: justify;
 }
 
 /*
@@ -100,5 +87,25 @@ p.grande {
 div div p {
   font-size: 1.5rem;
   font-weight: normal;
+}
+
+Font Style
+p {
+  font-size: 2em;
+  color: white;
+  padding-top: 40px;
+  font-family: 'Coming Soon', cursive;
+}
+
+.p1 {
+  font-style: normal;
+}
+
+.p2 {
+  font-style: italic;
+}
+
+.p3 {
+  font-style: oblique;
 }
 */
