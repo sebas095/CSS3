@@ -40,10 +40,11 @@ div {
 
 p {
   padding-top: 40px;
-  text-align: center;
-  line-height: 180%;
-  text-transform: capitalize;
-  font-variant: small-caps;
+  text-align: left;
+  text-indent: 30px;
+  /*line-height: 180%;*/
+  /*text-transform: capitalize;
+  font-variant: small-caps;*/
   /*text-decoration: underline;*/
 }
 
