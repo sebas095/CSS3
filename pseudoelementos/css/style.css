@@ -1,23 +1,53 @@
 body {
   background-color: khaki;
-  font-size: 12px;
+  font-size: 18px;
 }
 
-div {
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: orange;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+}
+
+/*div {
   width: 75%;
   margin: 7%;
   height: 600px;
   background-color: #088A48;
   color: white;
   font-size: 3em;
-}
+}*/
 
-p {
-  /*padding-top: 40px;*/
+
+/*
+Pseudoclases
+ p:after {
+  content: '-';
+  color: black;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: red;
+  width: 50px;
+  height: 50px;
+
+  p {
+  padding-top: 40px;
   text-align: left;
   letter-spacing: -2px;
   position: relative;
-  /*word-spacing: -9px;*/
+  word-spacing: -9px;
 }
 
 p::first-letter {
@@ -28,14 +58,4 @@ p::first-line {
   font-weight: bolder;
   font-variant: small-caps;
 }
-
-/*p:after {
-  content: '-';
-  color: black;
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  background-color: red;
-  width: 50px;
-  height: 50px;
-}*/
+*/
