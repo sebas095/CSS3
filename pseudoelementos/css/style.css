@@ -1,18 +1,57 @@
 body {
   background-color: khaki;
-  font-size: 18px;
+  font-size: 12px;
 }
 
-a {
+div {
+  margin: 10px;
+}
+
+div * {
+  border: 1px solid black;
+  width: 80px;
+  height: 50px;
+  background-color: #FFF;
+  display: inline-block;
+}
+
+div p:nth-of-type(2) {
+  background-color: orange;
+}
+
+/* Otras pseudoclases
+:nth-child(N)
+:nth-last-child(N)
+
+:nth-of-type(N)
+:nth-last-of-type(N)
+
+:first-of-type
+:last-of-type
+:only-of-type
+:empty
+:not(selector)
+
+:last-child
+:only-child
+:root
+:enabled
+:disabled
+:checked
+
+even / odd
+*/
+
+/*a {
   text-decoration: none;
-  /*background-color: white;
+  background-color: white;
   border: 2px solid black;
   border-radius: 20px;
   width: 100px;
-  height: 50px;*/
-}
+  height: 50px;
+}*/
 
-a:link {
+/*a:link {
   color: red;
 }
 
@@ -26,7 +65,7 @@ a:hover {
 
 a:active {
   color: transparent;
-}
+}*/
 
 /*p:hover {
   transform: scale(1.2);
