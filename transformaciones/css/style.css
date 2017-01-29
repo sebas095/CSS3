@@ -9,8 +9,9 @@ div {
   border: 3px solid black;
   background-color: white;
   margin: 20px;
-  transform-origin: left top;
-  transform: rotate(10deg);
+  /*transform-origin: left top;
+  transform: rotate(10deg);*/
+  transform: skew(10deg, -5deg);
 }
 
 /*
