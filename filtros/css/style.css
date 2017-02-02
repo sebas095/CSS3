@@ -1,0 +1,35 @@
+figure .blur {
+  filter: blur(1.3px);
+}
+
+figure .brightness {
+  filter: brightness(1.5);
+}
+
+figure .contrast {
+  filter: contrast(1.8);
+}
+
+figure .grayscale {
+  filter: grayscale(70%);
+}
+
+figure .huerotate {
+  filter: hue-rotate(90deg);
+}
+
+figure .invert {
+  filter: invert(80%);
+}
+
+figure .opacity {
+  filter: opacity(30%);
+}
+
+figure .saturate {
+  filter: saturate(7);
+}
+
+figure .sepia {
+  filter: sepia(80%);
+}
