@@ -1,11 +1,47 @@
 body {
   background-color: khaki;
   font-size: 12px;
-  --color_principal: #FF0850;
-  --distancia: 90px;
+  grid-columns: 1fr 1fr 1fr 1fr;
+  grid-rows: 1fr 1fr;
+  display: grid;
+  /*--color_principal: #FF0850;
+  --distancia: 90px;*/
+}
+
+body > * {
+  height: 100px;
+  border: 3px solid black;
+}
+
+nav {
+  grid-row: 1;
+  grid-column: 1;
+  grid-column-span: 4;
+  grid-row-span: 4;
+  background-color: yellow;
 }
 
 div {
+  grid-row: 2;
+  grid-column: 1;
+  background: green;
+}
+
+article {
+  grid-row: 2;
+  grid-column: 2;
+  grid-column-span: 3;
+  grid-row-span: 3;
+  background-color: orange;
+}
+
+aside {
+  grid-row: 2;
+  grid-column: 4;
+  background-color: purple;
+}
+
+/*div {
   height: 200px;
   width: 200px;
   border: 3px solid black;
@@ -14,4 +50,4 @@ div {
   margin-top: calc(var(--distancia) - 30px);
   position: relative;
   left: calc(50% - 100px);
-}
+}*/
